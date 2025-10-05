@@ -1,6 +1,9 @@
 ## Intro :
 eSentimental is a full-stack sentiment analysis platform built for the Smart India Hackathon (SIH), developed using Next.js with shadcn/ui components for rapid and consistent UI implementation. The project follows a collaborative AI-assisted development approach (“vibe coding”) to accelerate build time while maintaining code quality and technical ownership. We are also training a custom AI model tailored to policy and stakeholder feedback to power the analysis layer of the application.
 
+<hr>
+<hr>
+
 ## Installing the Dependencies 
 
 This will install all the npm modules 
