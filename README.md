@@ -1,4 +1,14 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+## Intro :
+eSentimental is a full-stack sentiment analysis platform built for the Smart India Hackathon (SIH), developed using Next.js with shadcn/ui components for rapid and consistent UI implementation. The project follows a collaborative AI-assisted development approach (“vibe coding”) to accelerate build time while maintaining code quality and technical ownership. We are also training a custom AI model tailored to policy and stakeholder feedback to power the analysis layer of the application.
+
+## Installing the Dependencies 
+
+This will install all the npm modules 
+```bash
+npm install 
+```
+
+<hr>
 
 ## Getting Started
 
@@ -20,14 +30,15 @@ You can start editing the page by modifying `app/page.tsx`. The page auto-update
 
 This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
-## Learn More
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Project To-Do List
+- [x] Initial setup and file structure
+- [x] Write core functionality
+- [ ] Add Results Page
+- [ ] Add Features Page 
+- [ ] Improve the ui of chatbot
+- [ ] Improve Wordcloud and add different charts 
+- [ ] Deploy to production
 
 ## Deploy on Vercel
 

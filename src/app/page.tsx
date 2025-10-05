@@ -5,6 +5,8 @@ import { Button } from "@/components/ui/button";
 import Header from "@/components/Header";
 import ResultsList from "@/components/ResultsList";
 import WordCloudCanvas from "@/components/WordCloudCanvas";
+import Chatbot from "@/components/Chatbot";
+
 
 export default function Page() {
   const [results, setResults] = useState<any[]>([]);
@@ -79,7 +81,7 @@ export default function Page() {
         {/* ✅ Results using your ResultsList component */}
         <section id="results" className="md:col-span-2">
           <h2 className="text-lg font-semibold mb-3">Results</h2>
-          <ResultsList results={results} />
+          <ResultsList results ={results} />
         </section>
 
         {/* ✅ Word Cloud */}
@@ -93,6 +95,8 @@ export default function Page() {
       <footer className="max-w-6xl mx-auto px-6 py-10 text-sm text-muted-foreground text-center">
         © {new Date().getFullYear()} Legislative Feedback Analysis (LFA) Tool
       </footer>
+      <Chatbot />
+
     </div>
   );
 }
