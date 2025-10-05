@@ -8,6 +8,7 @@ import WordCloudCanvas from "@/components/WordCloudCanvas";
 import Chatbot from "@/components/Chatbot";
 
 
+
 export default function Page() {
   const [results, setResults] = useState<any[]>([]);
   const [words, setWords] = useState<Array<{ word: string; weight: number }>>([]);
